@@ -1,0 +1,39 @@
+# Xcode
+.DS_Store
+GoogleService-Info.plist
+*/xcuserdata/
+*.xcuserstate
+*.xcworkspace/contents.xcworkspacedata
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Build
+build/
+DerivedData/
+*.ipa
+*.dSYM
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Misc
+*.log
+*.tmp
+*.backup
